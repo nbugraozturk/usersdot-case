@@ -15,4 +15,4 @@ Using Postgresql as database. There are db credentials in usersdot-backend/.env 
 yarn 
 yarn run dev
 ```
-Default port is 3000 for the backend app.
+Default port is 3000 for the frontend app.
