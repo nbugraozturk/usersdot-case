@@ -1,0 +1,77 @@
+.DS_Store
+
+# backend
+# compiled output
+./usersdot-backend/dist
+./usersdot-backend/node_modules
+
+# Logs
+./usersdot-backend/logs
+./usersdot-backend/*.log
+./usersdot-backend/npm-debug.log*
+./usersdot-backend/pnpm-debug.log*
+./usersdot-backend/yarn-debug.log*
+./usersdot-backend/yarn-error.log*
+./usersdot-backend/lerna-debug.log*
+
+# OS
+./usersdot-backend/.DS_Store
+
+# Tests
+./usersdot-backend/coverage
+./usersdot-backend/.nyc_output
+
+# IDEs and editors
+./usersdot-backend/.idea
+./usersdot-backend/.project
+./usersdot-backend/.classpath
+./usersdot-backend/.c9/
+./usersdot-backend/*.launch
+./usersdot-backend/.settings/
+./usersdot-backend/*.sublime-workspace
+
+# IDE - VSCode
+./usersdot-backend/.vscode/*
+./usersdot-backend/!.vscode/settings.json
+./usersdot-backend/!.vscode/tasks.json
+./usersdot-backend/!.vscode/launch.json
+./usersdot-backend/!.vscode/extensions.json
+
+# frontend
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+./usersdot-frontend/node_modules
+./usersdot-frontend/.pnp
+./usersdot-frontend/.pnp.js
+./usersdot-frontend.yarn/install-state.gz
+
+# testing
+./usersdot-frontend/coverage
+
+# next.js
+./usersdot-frontend/.next/
+./usersdot-frontend/out/
+
+# production
+./usersdot-frontend/build
+
+# misc
+./usersdot-frontend/.DS_Store
+./usersdot-frontend/*.pem
+
+# debug
+./usersdot-frontend/npm-debug.log*
+./usersdot-frontend/yarn-debug.log*
+./usersdot-frontend/yarn-error.log*
+
+# local env files
+./usersdot-frontend/.env*.local
+
+# vercel
+./usersdot-frontend/.vercel
+
+# typescript
+./usersdot-frontend/*.tsbuildinfo
+./usersdot-frontend/next-env.d.ts
