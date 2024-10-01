@@ -64,7 +64,7 @@ export class DatabaseService {
         database: process.env.DATABASE_NAME,
       });
       await this.client.connect();
-      console.log('Db conected');
+      console.log('Db connected');
     } catch (err) {
       console.error('Error connecting database', err);
     }

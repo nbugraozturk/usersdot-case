@@ -2,9 +2,7 @@ import { useEffect } from 'react';
 import { notification } from 'antd';
 
 const Message = ({ message, duration = 3, fireNotification, type = 'info'}) => {
-    useEffect(() => {
-        console.log(fireNotification);
-        
+    useEffect(() => {        
         if (fireNotification) {
             const notificationType = message?.type || type;
             notification[notificationType]({
