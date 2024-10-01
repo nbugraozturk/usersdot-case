@@ -1,0 +1,8 @@
+{
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "vscode.configuration-editing",
+    "javascript.format.enable": true,
+    "typescript.format.enable": true,
+    "workbench.editor.defaultBinaryEditor": "default",
+    "eslint.format.enable": true
+}
